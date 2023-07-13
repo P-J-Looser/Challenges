@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: ([https://your-solution-url.com](https://github.com/P-J-Looser/Challenges))
 - Live Site URL: (https://your-live-site-url.com)
 
 ## My process
