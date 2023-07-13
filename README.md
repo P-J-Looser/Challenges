@@ -6,14 +6,30 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size (mobile and desktop view)
+- View the optimal layout for the component depending on their device's screen size 
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
 
 ### Screenshot
+**Preview**
+![image](https://github.com/P-J-Looser/Challenges/assets/107743752/5336e07b-24bb-4cce-80d8-0aaa74b8e62d)
 
 
+**Active state.**
+![image](https://github.com/P-J-Looser/Challenges/assets/107743752/4084e15d-cd55-42a6-82d2-084fd34aba12)
+
+
+**Onclick.**
+![image](https://github.com/P-J-Looser/Challenges/assets/107743752/2d2d48ad-be07-400d-89a9-8195d3b53f3c)
+ 
+
+**Active state of mobile view.**<br>
+![image](https://github.com/P-J-Looser/Challenges/assets/107743752/3b3bb39f-c3c6-419c-930f-04fadc527a47)
+  
+
+**Onclick state of mobile view.**<br>
+![image](https://github.com/P-J-Looser/Challenges/assets/107743752/10cde1ea-abca-4327-bad5-7fcc27c5ccd7)
 
 
 ### Links
