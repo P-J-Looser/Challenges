@@ -30,8 +30,8 @@ body {
 }
 
 main {
-    width: 88%;
-    padding-top: 1rem;
+    max-width: 300px;
+    padding: 0 0.5rem;
 }
 
 .container {
