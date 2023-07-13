@@ -21,7 +21,7 @@
     display: initial;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 400px) {
 
     .mobile-view {
         display: none;
