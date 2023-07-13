@@ -1,0 +1,130 @@
+.faq {
+    padding-bottom: 1rem;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 22px;   
+    margin-bottom: 1.5rem; 
+}
+
+.faq-accordition-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.question {
+    width: 90%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: none;
+}
+
+.question:hover {
+    color: var(--text-soft-red);
+}
+
+.question img {
+    transition: transform 0.15s linear;
+}
+
+.answer {
+    width: 90%;
+    padding-top: 0.5rem;
+    line-height: 1rem;
+    border-bottom: none;
+    display: none;
+}
+
+.answer p {
+    width: 90%;
+    font-size: 11px;
+    color: var(--text-grayish-blue);
+}
+
+hr {
+    width: 90%;
+    margin: 0.8rem auto;
+    border-color: var(--div-blue);
+    opacity: 0.5;
+}
+
+.isactive > .question > p {
+    font-weight: bold;
+}
+
+.isactive > .question > img {
+    transform: rotate(180deg);
+}
+
+.isactive .answer {
+    display: initial;
+}
+
+@media (min-width: 376px) {
+
+    .faq {
+        flex: 1;
+        margin: 3rem 3rem;
+        font-size: 14px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .faq h1 {
+        text-align: left;
+        padding-left: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 30px;
+    }
+
+    .faq-accordition-box {
+        max-width: 400px;
+    }
+
+    .faq-accordition-box > .question {
+        border-bottom: 2px solid var(--div-blue);
+        padding: 1rem 0;
+    }
+
+    .faq-accordition-box > .answer {
+        border-bottom: 2px solid var(--div-blue);
+        padding-bottom: 1rem;
+    }
+
+    .isactive .question {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    .answer p {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .attribution {
+        margin-top: 4rem;
+    }
+
+    
+
+}
+
+@media (min-width : 377px) and (max-wudth : 880px ) {
+    .faq {
+        flex: 1;
+    }
+}

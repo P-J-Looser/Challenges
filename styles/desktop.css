@@ -1,0 +1,58 @@
+.desktop {
+    background-image: url('../images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.desktop .mobile-woman {
+    position: relative;
+    min-width: 220px;
+    top: -48%;
+    left: 50%;
+    transform: translate(-50% , -24%);
+    width: 70%;
+}
+
+.desktop-view {
+    display: none;
+}
+
+.mobile-view {
+    display: initial;
+}
+
+@media (min-width: 376px) {
+
+    .mobile-view {
+        display: none;
+    }
+
+    .desktop {
+        flex: 1;
+        background-image: url('../images/bg-pattern-desktop.svg');
+        background-position:  118% 65%;
+        background-size: 195%;
+        position: relative;
+    }
+
+    .desktop > .desktop-view {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .desktop > .desktop-view > .desktop-woman {
+        position: static;
+        transform: translate(-18% , 0%);
+        min-width: 420px;
+    }
+
+    .desktop > .desktop-view > .box {
+        position: absolute;
+        left: -6rem;
+        top: 41%;
+
+    }
+}
+
