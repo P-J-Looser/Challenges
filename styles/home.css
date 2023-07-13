@@ -55,7 +55,7 @@ main {
 @media (min-width: 881px) {
     main {
         width: 65%;
-        min-width: 850px;
+        min-width: 920px;
     }
 
     .container {
