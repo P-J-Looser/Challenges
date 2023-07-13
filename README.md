@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: ([https://your-solution-url.com](https://github.com/P-J-Looser/Challenges))
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: ([https://your-live-site-url.com](https://p-j-looser.github.io/Challenges/))
 
 ## My process
 
@@ -64,5 +64,5 @@ I am enthusiastic about expanding my knowledge in designing websites that effect
 
 ## Acknowledgments
 
-I would like to express my gratitude to Meetakoti Joshith and Mamidi Hemanth Kumar for their invaluable assistance during my design development. Thanks to their support, I was able to gain clarity on various topics related to flexbox and grid layouts. I sincerely appreciate their guidance and expertise. To show my appreciation, I would like to acknowledge their GitHub IDs: [joshith3501] and [hemanth110702].
+I would like to express my gratitude to **Meetakoti Joshith** and **Mamidi Hemanth Kumar** for their invaluable assistance during my design development. Thanks to their support, I was able to gain clarity on various topics related to flexbox and grid layouts. I sincerely appreciate their guidance and expertise. To show my appreciation, I would like to acknowledge their GitHub IDs: joshith3501 and hemanth110702.
 
